@@ -1,0 +1,1 @@
+This example demonstrates a common error in Ada programming involving subtypes and array assignments.  The code attempts to assign a larger array to a subtype with a smaller range. This will result in a constraint error at compile time unless explicitly handled. The solution demonstrates the proper way to handle this situation using array slicing.
